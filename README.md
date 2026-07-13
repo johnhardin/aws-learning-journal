@@ -1,20 +1,21 @@
 # AWS Learning Journal
 
-This repo is everything I know about AWS. after learning for Solution Architecture Associate Exam for years, I want to create a repo where i documented each of services on AWS. Maybe my explanation is bad but i will try my best to explain things for someone who new in cloud computing.
+This repo contains everything I've learned about AWS. After studying for the Solutions Architect Associate exam for years, I wanted to create a repository to document each AWS service. My explanations might be simple, but I will do my best to explain things clearly for someone new to cloud computing.
 
 ## Amazon Web Services (AWS)
-AWS is a cloud service providers. Cloud service itself offer **on-demand** computing resources over the internet. Imagine you need to put your apps into public so that people can access it. you put it on your own computer but it needs to run 24 hours so that people across the globe can access your app anytime. it will took a tol on your own computer and when the demand on your app is high, you problably cannot use your computer because the lag of processing everything from other who access your app.
+AWS is a cloud service provider. Cloud services offer **on-demand** computing resources over the internet. Imagine you want to make your app public so that people can access it. If you host it on your own computer, it would need to run 24/7 for global access. This would put a heavy toll on your hardware, and if demand increases, your computer might lag or crash due to the processing load.
 
-In this situation you can buy an actual physical server which is expensive if you only have small team/app or you can just rent Virtual Private Server (VPS) and put your app on this. but there is always limitation on VPS. what if you only want to test the system for a short time? VPS is cheap but you can only rent it with minimum of 1 month. Is it waste of money and resource? of course not, its really cheap that you can basically use it for a month to test everything your app needs. but there is always limitation on VPS, what if you need a higher performance? what if you need a more than 1 virtual server? what if you only need to use it for a couple hour?
+In this situation, you could buy a physical server, but that is expensive for a small team or app. Alternatively, you could rent a Virtual Private Server (VPS). However, VPS options still have limitations. What if you only want to test a system for a short time? While VPSs are affordable, they often require a minimum rental period (e.g., one month). Is that a waste of money and resources? Perhaps not, as they are cheap enough for monthly testing, but limitations remain: what if you need higher performance? What if you need multiple virtual servers? What if you only need them for a few hours?
 
-Thats where AWS or any cloud provider comes in. you can easily create a virtual server with the lowest performance the cloud service can provide or you can get a virtual server that capable of high performance computing or even for Machine Learning. Looks a bit excessive but it gets the job done whatever you need, from an enterprise to a personal project. the good thing is  **you only pay for what you use.**
+That's where AWS and other cloud providers come in. You can easily create a virtual server with the lowest possible performance or a high-performance instance capable of heavy computing or Machine Learning. Whether for an enterprise or a personal project, it gets the job done. The best part is: **you only pay for what you use.**
 
 I'll break down everything based on the main Catagories of Services and create folder and explanation for each services.
 
 ### Compute Services
-AWS have tons of services with some of them catagories as Compute Services. It provide processing power, memory, and networking needed to run application in the cloud without maintaining physical hardware. One of the services is Elastic Compute Cloud (EC2). I can say its almost the same as VPS with a far more better environment. We can adjust everything from compute unit, memory, storage, networking, security, and integrate it with other AWS services without the need of touching anything inside the virtual server itself. There is also serverless compute called Lambda, where you can execute a code for a short time with AWS handle all server maintenance, patching, and capacity provisioning.
+AWS has many services categorized as Compute Services. These provide the processing power, memory, and networking needed to run applications in the cloud without maintaining physical hardware. 
 
-You can get explanation for each services inside the compute servies folder.
+One such service is Elastic Compute Cloud (EC2). It is similar to a VPS but with a far superior environment. We can adjust the compute units, memory, storage, networking, and security, and integrate it with other AWS services without needing to manually configure everything inside the virtual server. There is also a serverless compute option called Lambda, where you can execute code for a short duration while AWS handles all server maintenance, patching, and capacity provisioning.
 
+You can find detailed explanations for each service inside the compute services folder.
 
 **note: This repo is still on-going and you can comment if there is something wrong with my explanation**
