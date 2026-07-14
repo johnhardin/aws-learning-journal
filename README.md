@@ -16,6 +16,12 @@ AWS has many services categorized as Compute Services. These provide the process
 
 One such service is Elastic Compute Cloud (EC2). It is similar to a VPS but with a far superior environment. We can adjust the compute units, memory, storage, networking, and security, and integrate it with other AWS services without needing to manually configure everything inside the virtual server. There is also a serverless compute option called Lambda, where you can execute code for a short duration while AWS handles all server maintenance, patching, and capacity provisioning.
 
-You can find detailed explanations for each service inside the compute services folder.
+These are the main Compute Services in AWS:
+- Elastic Compute Cloud (EC2)
+- AWS Lambda
+- Elastic Container Service (ECS)
+- Elastic Kubernetes Servics (EKS)
 
-**note: This repo is still on-going and you can comment if there is something wrong with my explanation**
+There are more Compute Services in AWS but this is the most you will hear about and I'll update more after I finish other catagories. 
+
+**note: This repo is still on-going and apology if there some mistake cause I'm still learning about AWS**
