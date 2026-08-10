@@ -1,0 +1,4 @@
+# EC2 Architecture
+
+Like we discuss before, there are tons of features inside EC2 and we can use it runs everything we need. One of the example is tier 2 or tier 3 application, where we use 2-3 different layer or component to create our system. In AWS we use 3 different services in this context. the first layer is presentation tier (user interface) where user basically see and interact with, the second is the application tier (business logic) where the actual command will be execute in back of the system, and the last one is Data tier (database storage) where the actual data reside.
+If you are asking why we use 3 layers or services in this design, because we dont want to put everything inside a single massive layer. Without the need of other service, we can actually use only EC2 service to create this, but there is always a downside when putting everything into a single plate.
